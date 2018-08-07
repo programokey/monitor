@@ -1,5 +1,5 @@
 # 如何部署monitor
-确保已经安装了iris等工具，系统中需要有/bin/bahs、wc、ps等命令。
+确保已经安装了iris等工具，系统中需要有/bin/bash、wc、ps等命令。
 1. 下载打包好的监控工具。
 ```shell
 wget https://raw.githubusercontent.com/programokey/monitor/master/monitor.tar.gz
