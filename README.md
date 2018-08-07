@@ -40,7 +40,7 @@ to
 ./start.sh
 ```
 5. then, you can visit http://localhost:3000/ to see the grafana monitoring page. The default username and password are both admin. We strongly recommend immediately changing your username & password after login.
-6. Click the Home Button, and open the IRIS HUB. Then you can see all the monitoring parameters.
+6. Click the `Home` button, and open the `IRIS HUB`. Then you can see all the monitoring parameters.
 7. stop the monitor
 ```
 ./stop.sh
