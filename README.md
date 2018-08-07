@@ -13,7 +13,7 @@ tar -xzvf monitor.tar.gz
 cd monitor
 vim start.sh
 ```
-edit the thrid command in start.sh
+edit the third command in start.sh
 ```
 modify
 -a=378E63271D5BE927443E17CBAAFE68DEFF383DA7
