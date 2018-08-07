@@ -1,5 +1,5 @@
 # 如何部署monitor
-确保已经安装了iris等工具，系统中需要有/bin/bash、wc、ps等命令。
+确保已经安装了iris等工具，系统中需要有/bin/bash、wc、ps等命令。你可以参考这个页面来安装iris工具:https://github.com/irisnet/irishub
 1. 下载打包好的监控工具。
 ```shell
 wget https://raw.githubusercontent.com/programokey/monitor/master/monitor.tar.gz
@@ -37,7 +37,7 @@ vim start.sh
 ./start.sh
 ```
 5. 接下来就可以在localhost:3000访问grafana监控。打开网页后使用默认用户名admin，默认密码admin登录。建议登录之后立即修改密码。
-6. 点击Home按钮，然后在general中打开IRIS HUB即可看到监控项。
+6. 点击Home按钮，然后在general栏中打开IRIS HUB即可看到监控项。
 7. 关闭监控
 ```
 ./stop.sh
