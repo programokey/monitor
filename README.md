@@ -38,7 +38,7 @@ vim start.sh
 ./start.sh
 ```
 5. 接下来就可以访问localhost:3000来查看grafana监控。打开网页后使用默认用户名admin，默认密码admin登录。建议登录之后立即修改密码。
-6. 点击Home按钮，然后在general栏中打开IRIS HUB即可看到监控项。
+6. 点击`Home`按钮，然后在`general`栏中打开`IRIS HUB`即可看到监控项。
 7. 关闭监控
 ```
 ./stop.sh
