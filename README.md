@@ -30,8 +30,15 @@ vim start.sh
 ```
 --node="tcp://localhost:26657"
 修改为
---chain-id=<你要监控的节点监听的rpc端口(默认为26657)>
+--node=<你要监控的节点监听的rpc端口(默认为26657)>
 ```
+
+```
+--account-address="faa..."
+修改为
+--account-address=<你的账户的地址(faa开头)>
+```
+
 
 4. 启动监控工具
 ```
