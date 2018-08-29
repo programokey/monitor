@@ -35,6 +35,13 @@ to
 --node=<listening address of the node that you want to monitor ("tcp://localhost:26657" by default, you should not change this if you didn't modify your rpc port)>
 ```
 
+```
+modify
+--account-address="faa..."
+to
+--account-address=<address of your account(start with faa)>
+```
+
 4. start the monitoring tools
 ```
 ./start.sh
